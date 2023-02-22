@@ -42,8 +42,8 @@ cloud:
     stack:
       auto: false
     credentials:
-      access-key: AKIAZ3T7NYFP775OL7SX
-      secret-key: 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
+      access-key: 
+      secret-key: 
 
 eureka:
   client:
