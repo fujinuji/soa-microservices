@@ -1,0 +1,4 @@
+D:\faculta\SOA\sample-spring-microservices\email-service\src\main\java\ro\ubb\soa\ccojocaru\model\SendEmailOrder.java
+D:\faculta\SOA\sample-spring-microservices\email-service\src\main\java\ro\ubb\soa\ccojocaru\EmailSendingServiceApplication.java
+D:\faculta\SOA\sample-spring-microservices\email-service\src\main\java\ro\ubb\soa\ccojocaru\config\KafkaConsumerConfig.java
+D:\faculta\SOA\sample-spring-microservices\email-service\src\main\java\ro\ubb\soa\ccojocaru\service\KafkaConsumerService.java

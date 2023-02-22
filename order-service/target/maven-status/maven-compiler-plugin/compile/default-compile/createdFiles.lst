@@ -1,0 +1,10 @@
+ro\ubb\soa\ccojocaru\model\MenuItem.class
+ro\ubb\soa\ccojocaru\controller\OrderController.class
+ro\ubb\soa\ccojocaru\model\SendEmailOrder.class
+ro\ubb\soa\ccojocaru\sevice\OrderService.class
+ro\ubb\soa\ccojocaru\config\WebConfiguration.class
+ro\ubb\soa\ccojocaru\config\KafkaProducerConfig.class
+ro\ubb\soa\ccojocaru\model\RestaurantOrder.class
+ro\ubb\soa\ccojocaru\repository\OrderRepository.class
+ro\ubb\soa\ccojocaru\config\SimpleCORSFilter.class
+ro\ubb\soa\ccojocaru\OrderServiceApplication.class

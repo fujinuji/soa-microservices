@@ -1,0 +1,10 @@
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\config\SimpleCORSFilter.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\repository\OrderRepository.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\controller\OrderController.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\config\WebConfiguration.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\model\MenuItem.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\OrderServiceApplication.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\model\RestaurantOrder.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\model\SendEmailOrder.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\config\KafkaProducerConfig.java
+D:\faculta\SOA\sample-spring-microservices\order-service\src\main\java\ro\ubb\soa\ccojocaru\sevice\OrderService.java

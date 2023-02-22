@@ -1,0 +1,58 @@
+server:
+  port: ${PORT:2222}
+
+spring:
+  application:
+    name: order-service
+  logging:
+    pattern:
+      console: "%clr(%d{yyyy-MM-dd HH:mm:ss}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr([${springAppName:-},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-Span-Export:-}]){yellow} %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
+    level:
+      org.springframework: WARN
+      org.hibernate: WARN
+  datasource:
+    url: "jdbc:mysql://localhost:3306/soa"
+    username: user
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  user:
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+
+  kafka:
+    topic:
+      id: order-email
+    producer:
+      properties:
+        spring:
+          json:
+            add:
+              type:
+                headers: false
+cloud:
+  aws:
+    region:
+      static: eu-central-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIAZ3T7NYFP775OL7SX
+      secret-key: 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
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+
+ribbon:
+  eureka:
+    enabled: true
